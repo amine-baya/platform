@@ -1,0 +1,159 @@
+ 
+ 
+ .notice{
+    background: rgb(233,233,233);
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 20px; 
+ }
+ 
+.notice h5{
+    text-transform: capitalize;
+    padding-top: 10px;
+    
+
+ }
+
+ .notice h5 span{
+    opacity: .6;
+    font-weight: bold;
+
+ }
+
+ .notice p{
+    padding-bottom: 2px;
+    padding-left: 12px;
+    font-size: 16px;
+    opacity: .8;
+ }
+ .notice p span{
+    color: red;
+
+ }
+ 
+ 
+ .table_absence{
+    margin-top: 50px;
+    
+}
+
+.tr_absence{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    
+}
+
+
+.td_name_list_title{
+
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    border:  1px solid rgb(110, 110, 110); 
+    border-right: none;
+}
+
+.td_name_list_body{
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    border:  1px solid rgb(110, 110, 110);
+    border-right: none;
+    border-top: none;
+
+}
+.td_date_absence{
+    font-size:14px ;
+    font-weight: bold; 
+    background: linear-gradient(50deg, #d9230f, rgba(255, 36, 55, 1));
+    color: #fff;
+    border-bottom:none ;
+
+}
+.td_time_absence{
+    background: linear-gradient(10deg, #d9230f, rgba(240, 40, 60, 1));
+    color: #fff;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        padding: 0 !important;
+    
+}
+.td_body_signature_absence{
+      
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 !important;
+
+}
+
+.td_date_absence,.td_time_absence,.td_body_signature_absence{
+    border: 1px solid rgb(110, 110, 110)
+
+}
+
+.td_one_absence,.td_three_absence{
+   
+   border-right: 1px solid rgb(110, 110, 110);
+   border-bottom: none;
+}
+.td_one_absence,.td_two_absence{
+   
+       padding: 6px;
+
+}
+
+.td_three_absence,.td_four_absence{
+   
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table_row_absence{
+    margin-bottom: 10px;
+}
+
+.td_three_absence img {
+    width:100%;
+    height: 100%; 
+    
+}
+.td_four_absence img {
+    width:100%; 
+    height: 100%; 
+
+    
+}
+
+.td_three_absence img{
+    height: 100%;
+    width: 100%;
+    zoom: 150%;
+    background-size: cover;
+    margin: 0;
+    border: 1px  solid red;
+}
+.td_three_absence span{
+    font-size: 14px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.td_four_absence img{
+     height: 100%;
+    width: 100%;
+    zoom: 150%;
+    background-size: cover;
+    margin: 0;
+    border: 1px  solid red;
+} 

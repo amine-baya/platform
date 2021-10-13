@@ -1,0 +1,51 @@
+.sigCanvas{
+    background-color: rgb(233,233,233);
+    border: 1px solid red;
+}
+.show_signature{
+    background-color: rgb(233,233,233);
+    height: 300px;
+    padding: 50px;
+
+    margin-top: 100px;
+
+}
+.close_modal_times i{ 
+   cursor: pointer;
+}
+
+.show_modal{
+    margin-top: 30px;
+    margin-right: 50%;
+    height: 30px;
+    background-color: #d9230f;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    position: relative;
+    overflow-x: hidden;
+    transform: translateX(75%);
+    outline: none;
+    border: none;
+    border-radius: 7px; width: 40%;
+}
+.show_modal::after
+{
+    position: absolute; 
+    content: '';
+    width: 20px;
+    height: 100%;
+    transform: skew(-30deg);
+    background-color: rgba(255, 255, 255, 0.39);
+    left: -35px;
+    top: 0;
+    transition: all ease .5s;
+
+}
+
+ .show_modal:hover:after
+{
+    transform: translateX(500px) skew(-30deg);
+}

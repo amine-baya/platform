@@ -1,0 +1,79 @@
+.table{
+    margin-top: 100px;
+   
+    
+}
+
+.tr{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    
+}
+.td_date{
+    font-size:14px ;
+    font-weight: bold; 
+    background: linear-gradient(50deg, #d9230f, rgba(255, 36, 55, 1));
+    color: #fff;
+    border-bottom:none ;
+
+}
+.td_time{
+    background: linear-gradient(10deg, #d9230f, rgba(240, 40, 60, 1));
+    color: #fff;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        padding: 0 !important;
+    
+}
+.td_body_signature{
+      
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 !important;
+
+}
+
+.td_date,.td_time,.td_body_signature{
+    border: 1px solid rgb(110, 110, 110)
+
+}
+
+.td_one,.td_three{
+   
+   border-right: 1px solid rgb(110, 110, 110)
+}
+.td_one,.td_two{
+   
+       padding: 6px;
+
+}
+
+.td_three,.td_four{
+   
+    padding: 17px;
+}
+
+.table_row{
+    margin-bottom: 10px;
+}
+
+.td_three img {
+    width:100%;
+    height: 100%;   
+}
+.td_three button,.td_four button {
+    width:100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;   
+}
+.td_four img {
+    width:100%; 
+    height: 100%; 
+
+    
+}

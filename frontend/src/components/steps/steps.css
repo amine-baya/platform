@@ -1,0 +1,51 @@
+.steps 
+{
+    margin-top:50px ;
+  margin-left: 50px; 
+  transform: translateX(12%);
+
+}
+
+.steps div
+{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.steps div a
+{
+  text-decoration: none;
+  color: gray;
+}
+.steps div span
+{
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    color: gray;
+}
+
+.steps p
+{
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.steps .active a
+{
+    color: #d9230f;
+}
+
+div.active span
+{
+    border: 1px solid #d9230f ;
+    color: #d9230f ;
+
+}

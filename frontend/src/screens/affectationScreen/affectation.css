@@ -1,0 +1,95 @@
+.form_affectation .affectation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+.affectation_title{
+    margin-top: 100px;
+    text-transform: uppercase;
+    
+}
+
+.affectation_part_one, .affectation_part_two {
+    display: flex;
+    flex-direction: column;
+   
+    margin-right: 15px;
+    margin-left: 15px;
+
+    
+}
+
+.affectation_part_one select,.affectation_part_two select {
+    text-transform: capitalize;
+    font-size: 16px; 
+    outline: none !important;
+    height: 36px;
+    border-color:#d9230f;
+}
+
+
+.show_affectation_part_one,.show_affectation_part_two{
+     background: rgb(233, 233, 233);
+     color: black;
+     margin-top: 30px;
+     
+}
+ 
+ .form_affectation button
+{
+    margin-top: 50px;
+    margin-right: 50%;
+    height: 30px;
+    background-color: #d9230f;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize; 
+    position: relative;
+    overflow-x: hidden;
+    transform: translateX(75%);
+    outline: none;
+    border: none;
+    border-radius: 7px; width: 40%;
+   
+
+}
+
+.form_affectation button::after
+{
+    position: absolute; 
+    content: '';
+    width: 20px;
+    height: 100%;
+    transform: skew(-30deg);
+    background-color: rgba(255, 255, 255, 0.39);
+    left: -35px;
+    top: 0;
+    transition: all ease .5s;
+
+}
+
+ .form_affectation button:hover:after
+{
+    transform: translateX(500px) skew(-30deg);
+}
+
+.show_affectation_result{
+     background: rgb(233, 233, 233);
+     color: black;
+     margin-top: 30px;
+     margin-bottom: 100px;
+}
+
+.show_affectation_result h3{
+     padding-left: 20px;
+}
+
+.show_affectation_result div{
+     padding-left: 25px;
+     
+}

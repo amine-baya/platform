@@ -1,0 +1,128 @@
+.register_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+   
+
+}
+section.register_section .form
+{
+    
+    background: #fcfcfc;
+    padding: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    width: 50%;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0, rgba(0,0,0,.1) 0 3px 4px 0 ;
+}
+
+section.register_section .form_input
+{
+    position: relative;
+}
+section.register_section label
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(25%);
+    color: var(--black);
+    pointer-events: none;
+    font-size: 16px;
+    transition: all ease .5s;
+    opacity: .5;
+}
+
+section.register_section  .generate_password_button,section.register_section  .form_input_type
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(25%);
+    color: var(--black);
+   
+    font-size: 16px;
+    transition: all ease .5s;
+   
+}
+section.register_section label.on
+{
+    transform: translate(-20px, -30px);
+    font-size: 13px;
+    color: #d9230f;
+    opacity: 1;
+}
+section.register_section input
+{
+    border: none;
+    border-bottom: 2px solid #d9230f;
+    background-color: white !important;
+    outline: none !important;
+    color: var(--black);
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+}
+section.register_section .form .button
+{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #d9230f;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    position: relative;
+    overflow-x: hidden;
+}
+section.register_section .form .button::after
+{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 100%;
+    transform: skew(-30deg);
+    background-color: rgba(255, 255, 255, 0.39);
+    left: -35px;
+    top: 0;
+    transition: all ease .5s;
+}
+section.register_section .form .button:hover:after
+{
+    transform: translateX(500px) skew(-30deg);
+}
+
+.description_create{
+    border: none;
+    border-bottom: 2px solid #d9230f;
+    background-color: white !important;
+    outline: none !important;
+    color: var(--black);
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    resize: none;
+}
+
+section.register_section .description_div label
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-250%);
+    color: var(--black);
+    pointer-events: none;
+    font-size: 16px;
+    transition: all ease .5s;
+    opacity: .5;
+}
+section.register_section .description_div label.on
+{
+    transform: translate(-20px, -100px);
+    font-size: 13px;
+    color: #d9230f;
+    opacity: 1;
+}

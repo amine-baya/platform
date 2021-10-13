@@ -1,0 +1,71 @@
+.show_course
+{
+    margin: 50px;
+}
+
+.show_course_h1
+{
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.show_course p
+{
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    color: rgb(100, 100, 100);
+    letter-spacing: 2px;
+    
+}
+
+.my_courses{
+    background-color: rgb(233,233,233);
+    padding:20px 15px 60px 15px;
+    
+
+}
+.my_courseName{
+    border: 1px solid transparent;
+    padding: 3px 5px; 
+    border-radius: 10px;
+    background-color: rgb(163, 163, 163);
+    margin-right: 16px;
+
+}
+.my_courseDate{
+   opacity: .7;
+}
+
+.show_course h4
+{
+    margin-top: 20px;
+   
+    background: #d9230f;
+    width: auto;
+    transition: all ease .5s;
+    border: 1px solid white;
+    width: 70%;
+}
+.show_course h4 a
+{
+    
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all ease .5s;
+    display: block;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.show_course h4:hover
+{
+     background: #d9230f;
+    border: 1px solid transparent;
+}
+
+.show_course h4:hover a
+{
+    color: white;
+}
